@@ -1,0 +1,342 @@
+* {
+    box-sizing: content-box;
+}
+
+body{
+    padding: 0;    
+    font-family: 'Arial (Hebrew)', sans-serif;
+    direction: rtl;    
+    
+    margin:0px;
+}
+main{
+    margin:auto;
+}
+
+header{   
+    width: 100%;      
+    background-color: rgb(144, 144, 144); 
+}
+
+#all-header-items{
+    width:950px;
+    margin:auto;
+    position: relative;
+}
+
+footer{
+    background: linear-gradient(rgb(192, 191, 191), rgb(144, 144, 144) );
+    position: fixed;
+    width: 100%;
+    bottom: 1px;
+    padding:14px 10px 2px 10px;
+    margin:auto;
+    height: 22px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;   
+    border-right: 2px solid rgb(209, 208, 208);
+    font-size: 0.9em;
+padding:0px 5px;
+
+}
+footer a:last-child{
+    color:red;
+}
+
+footer a:hover{
+    color: rgb(31, 91, 159);
+    text-decoration:underline;
+}
+#facebook-image{
+margin-bottom:-5px;
+}
+
+#search-edit{
+    border-radius: 0px 8px 0px 0px;
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    border: 0.5px solid gray;
+    width:126px;
+    padding:3px;
+    position: relative;
+    bottom: 6px;
+    left:-4px;
+    
+}
+#search{
+    padding: 0px;
+    margin: 5px 0px;
+    border:0px;
+    width:19px;
+    height: 19px;
+    
+}
+
+.simple-link{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.simple-link:hover{
+    text-decoration: underline;
+    color: rgb(31, 91, 159);
+}
+
+#search-banner{
+    padding-left: 115px; 
+   height: 60px;
+   padding-top:16px;  
+   background-color: rgb(144, 144, 144);
+   text-align: left;
+}
+
+#container1,#container2{
+    
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+.big-card, .small-card{
+    margin:0px 7px; 
+ 
+
+    width:292px;
+    display: inline-block;
+
+}
+.big-card{
+    height: 355px;
+
+}
+.small-card{   
+    font-size: 14px;    
+    background-color: rgb(238, 238, 238);
+    border-radius: 0px 30px 0px  0px;
+    border:0.6px solid rgb(196, 196, 196);
+    height:216px;
+    padding-top:10px;
+}
+
+.small-card .upper-header{    
+    height: 50px;;
+}
+
+.small-card .below-image{
+    display: block;
+    height:160px;
+}
+
+.small-card .below-image a{
+    margin-top:23px;
+    background: url("images/read_more_yellow.png") no-repeat 0 0;
+    text-align: left;  
+}
+
+.small-card .below-image a span:hover, .big-card .text-container a:hover{
+    color: rgb(31, 91, 159);
+}
+
+.small-card .below-image a span{
+    margin-left:23px;   
+}
+
+.small-card>.special-case{
+    height: 160px;
+}
+
+.special-case img{
+    width:55px;   
+}
+
+.special-case a span{
+    margin-left:10px;   
+}
+
+.special-case a{
+    display: block;
+    font-size: 12px;
+    color: gray;
+    background: url("images/read_more_yellow.png") no-repeat 0 0;
+    text-align: right;
+}
+
+.special-case #a1{
+    top:25px;
+    right: 25px;
+    float:right;
+    padding-right: 10px;
+}
+
+.special-case #a2{
+    top:20px;
+    left: 1px;   
+}
+
+.text-container{
+    
+    border-radius: 0px 0px 30px 0px;
+    font-size:13px;
+    background-color: rgb(137, 137, 137);
+    text-align: right;    
+    opacity: 0.9;
+    color:white;
+
+    height:77px;
+    width:229px;
+
+    margin-top: 250px;    
+    margin-right : 5px;
+    
+    padding: 2px 10px 14px;
+}
+.text-container>h3, .text-container>p{
+    margin: 0;
+    padding: 0px;
+}
+.text-container>a{
+    display: block;
+    text-align: left;
+   
+    padding-left :18px;
+    background: url("images/read_more_white.png") no-repeat 0 0;
+    color:white;
+}
+
+.big-card:nth-child(1){
+    border-radius: 0px 0px 30px 0px;
+    background: url("images/1908364606615453350.JPG") no-repeat 0 0;
+    
+   
+}
+
+.big-card:nth-child(2){
+    border-radius: 0px 0px 30px 0px;
+    background: url("images/Picture-046410251500.jpg") no-repeat 0 0;
+  
+   
+}
+.big-card:nth-child(3){
+    border-radius: 0px 0px 30px 0px;
+    background: url("images/291_354410564000.jpg") no-repeat 0 0;
+   
+   
+}
+.small-card h3{    
+    padding: 5px;
+    margin: 0px;
+    font-size:14px;
+    color:rgb(73, 73, 73);
+}
+
+.small-card hr{
+    width: 90%;    
+    border-color: gree;
+    
+}
+
+/* NAV */
+
+nav{
+    
+    background: linear-gradient(to bottom , rgb(144,144,144), rgb(170,170,170));     
+    margin-right: 90px;
+    text-align: center;
+    padding-bottom:16px;    
+    background-color: rgb(144, 144, 144);
+}
+
+ul{
+    list-style-type: none;  
+    padding:0px;
+    margin: 0px;
+  }
+
+nav>ul>li{
+    display:inline-block;        
+}
+
+#home {
+    
+    background-image: url("images/menu_home.png");
+    background-repeat: no-repeat;    
+    background-position: -17px top;
+    border-right: 0px;
+   
+    padding: 0px 15px 0px 3px;
+    display: inline;
+ /* //   0px 15px 0px 3px */
+}   
+#home:hover{
+    background-position: 0px top; 
+}
+nav>ul>li>img
+  {
+    position: absolute;
+    clip: rect(0px,17px,20px,0px);
+    margin-top: -12px;
+    margin-right: -41px;
+  }
+
+  nav>ul>li>img:hover{
+    position: absolute;
+    clip: rect(0px,34px,17px,17px);
+    margin-right: -23px;
+  }
+
+ul>li>a  {   
+    display:inline-block;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid rgb(194, 193, 193);
+    
+    padding :2px 15px;
+    margin:0;
+}
+
+.dropdown-menu{
+    position: absolute;
+    padding-top: 13px;
+    display: none;
+   
+}
+
+.dropdown-menu a{    
+    width: 80%;    
+    padding: 5px 20px ;    
+    text-align: right;
+    font-weight: bold;
+    font-size: 19px;
+    color: white;
+    border-top: 1px solid rgb(201, 201, 201);
+    background-color: rgb(144, 144, 144);      
+}
+
+.dropdown>a:hover{
+    background-color: rgb(144, 144, 144);
+    color: rgb(31, 91, 159);
+  }
+
+  .dropdown:hover .dropdown-menu{
+    display: block;
+    width:120px;  
+}
+
+.dropdown-menu>li>a:hover{
+    background-color: rgb(188, 188, 188);
+    color: rgb(31, 91, 159);
+    text-decoration:underline;
+  }
+  
+#logo-img{
+    position: absolute;
+    top:45px;
+    right:-60px;
+}
