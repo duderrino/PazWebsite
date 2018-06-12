@@ -16,12 +16,14 @@ main{
 header{   
     width: 100%;      
     background-color: rgb(144, 144, 144); 
+    background: linear-gradient(to bottom , rgb(144,144,144), rgb(170,170,170));
 }
 
 #all-header-items{
     width:950px;
     margin:auto;
     position: relative;
+
 }
 
 footer{
@@ -91,7 +93,7 @@ margin-bottom:-5px;
     padding-left: 115px; 
    height: 60px;
    padding-top:16px;  
-   background-color: rgb(144, 144, 144);
+   /* background-color: rgb(144, 144, 144); */
    text-align: left;
 }
 
@@ -243,12 +245,11 @@ margin-bottom:-5px;
 /* NAV */
 
 nav{
-    
-    background: linear-gradient(to bottom , rgb(144,144,144), rgb(170,170,170));     
+             
     margin-right: 90px;
     text-align: center;
     padding-bottom:16px;    
-    background-color: rgb(144, 144, 144);
+    /* background-color: rgb(144, 144, 144); */
 }
 
 ul{
@@ -320,7 +321,6 @@ ul>li>a  {
 }
 
 .dropdown>a:hover{
-    background-color: rgb(144, 144, 144);
     color: rgb(31, 91, 159);
   }
 
