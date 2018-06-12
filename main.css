@@ -135,9 +135,11 @@ margin-bottom:-5px;
 }
 
 .small-card .below-image a{
-    margin-top:23px;
-    background: url("images/read_more_yellow.png") no-repeat 0 0;
-    text-align: left;  
+    margin-top: 23px;
+    background: url(images/read_more_yellow.png) no-repeat 0 0;
+    margin-left: -157px;
+    background-position-x: 8px;
+    background-position-y: 4px;
 }
 
 .small-card .below-image a span:hover, .big-card .text-container a:hover{
@@ -337,4 +339,19 @@ ul>li>a  {
 #logo-img{
     position: absolute;
     top:45px;
+}
+.text-container>a:hover{
+    color: rgb(31, 91, 159);
+    background: url("images/read_more_blue.png") no-repeat 0 0;
+}
+
+a.readMore span:hover{
+    color: rgb(31, 91, 159);
+    background: url("images/read_more_blue.png") no-repeat 0 0;
+}
+
+.small-card .below-image a:hover{
+    background: url("images/read_more_blue.png") no-repeat 0 0;
+    background-position-x: 8px;
+    background-position-y: 2px;
 }
