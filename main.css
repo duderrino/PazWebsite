@@ -189,7 +189,7 @@ margin-bottom:-5px;
     opacity: 0.9;
     color:white;
 
-    height:77px;
+    height:83px;
     width:229px;
 
     margin-top: 250px;    
@@ -293,18 +293,17 @@ nav>ul>li>img
 ul>li>a  {   
     display:inline-block;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 15px;
     text-decoration: none;
     color: white;
     border-right: 1px solid rgb(194, 193, 193);
-    
     padding :2px 15px;
     margin:0;
 }
 
 .dropdown-menu{
     position: absolute;
-    padding-top: 13px;
+    padding-top: 15px;
     display: none;
    
 }
@@ -314,7 +313,7 @@ ul>li>a  {
     padding: 5px 20px ;    
     text-align: right;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 15px;
     color: white;
     border-top: 1px solid rgb(201, 201, 201);
     background-color: rgb(144, 144, 144);      
@@ -338,5 +337,4 @@ ul>li>a  {
 #logo-img{
     position: absolute;
     top:45px;
-    right:-60px;
 }
